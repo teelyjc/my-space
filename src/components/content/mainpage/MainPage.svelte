@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" context="module">
   import { onMount } from 'svelte';
   import type { DiscordProps } from '../../../interfaces/DiscordProps';
   import axios from 'axios';
