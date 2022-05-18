@@ -1,8 +1,11 @@
+<script context="module">
+  import axios from 'axios'
+;</script>
+
 <script lang="ts">
   import { onMount } from 'svelte';
-  import axios from 'axios';
   import MyIcon from './MyIcon.svelte';
-  
+
   import type { DiscordProps } 
     from '../../../interfaces/DiscordProps';
 
