@@ -1,4 +1,4 @@
-import vercel from '@sveltejs/adapter-vercel';
+import adaptor from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -8,10 +8,6 @@ export default {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: vercel({
-			edge: true,
-			external: [],
-			split: false,
-		})
+		adapter: adaptor()
 	}
 };
