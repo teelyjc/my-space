@@ -1,9 +1,14 @@
 <script lang="ts">
-  import MainPage from "../components/content/mainpage/MainPage.svelte";
+  import MainComponent from "../components/content/mainpage/MainComponent.svelte";
+  import Meta from "../components/Meta.svelte";
+  import type { MetaProps } from "../interfaces/MetaProps";
+
+  const metadata: MetaProps = {
+    title: "Home",
+    description: "Welcome to Tannatee Juchan's Space",
+    url: "https://www.teelyjc.com/"
+  }
 </script>
 
-<svelte:head>
-  <title>Home • Tannatee Juchan's space</title>
-</svelte:head>
-
-<MainPage />
+<Meta { metadata } />
+<MainComponent />
