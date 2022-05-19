@@ -10,6 +10,9 @@ export interface Member {
   discriminator: string;
   avatar?: any;
   status: string;
+  game: {
+    name: string;
+  }
   avatar_url: string;
 }
 
