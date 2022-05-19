@@ -11,8 +11,8 @@
   let path: string;
   $: path = $page.url.pathname;
 
-  let nonActive: string = "text-lg text-white hover:text-purple-700";
-  let active: string = "text-lg text-purple-500";
+  let nonActive: string = 'text-lg text-white hover:text-purple-700';
+  let active: string = 'text-lg text-purple-500';
 </script>
 
 <!-- is page active will change class to active -->

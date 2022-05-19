@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { MetaProps } from './../interfaces/MetaProps';
+	import type { MetaProps } from '../interfaces/MetaProps';
   export let metadata: MetaProps = {};
 </script>
 

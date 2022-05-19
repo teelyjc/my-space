@@ -4,9 +4,9 @@
   import type { MetaProps } from '../interfaces/MetaProps';
 
   const metadata: MetaProps = {
-    title: "About",
-    description: "About Tannatee Juchan such as profile banner.",
-    url: "https://www.teelyjc.com/about"
+    title: 'About',
+    description: 'About Tannatee Juchan such as profile banner.',
+    url: 'https://www.teelyjc.com/about',
   }
 </script>
 

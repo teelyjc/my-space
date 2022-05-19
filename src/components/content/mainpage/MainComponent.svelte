@@ -1,6 +1,6 @@
 <script context="module">
-  import axios from 'axios'
-;</script>
+  import axios from 'axios';
+</script>
 
 <script lang="ts">
   import { onMount } from 'svelte';
@@ -12,7 +12,7 @@
   let discordData: DiscordProps;
 
   let discordEndPoint: 
-    string = "https://discord.com/api/guilds/953724179520299018/widget.json";
+    string = 'https://discord.com/api/guilds/953724179520299018/widget.json';
 
   onMount(async () => {
     const { data } = await axios.get(discordEndPoint);
