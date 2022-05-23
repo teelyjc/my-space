@@ -1,0 +1,1 @@
+<img class="mx-auto w-12 h-12" src="/icons/loading.svg" alt="loading icon" />
